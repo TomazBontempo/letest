@@ -22,16 +22,16 @@ document.querySelector(".animation").addEventListener("click", function () {
     document.querySelector(".animation").removeEventListener;
     document.querySelector(".animation").style.pointerEvents = "none"; // Remove pointer attribute from .animation
     document.querySelector(".animation").style.backgroundImage =
-      "url('/imgs/cookieOut.gif')"; // Change the div image to cookieOut.gif
+      "url('imgs/cookieOut.gif')"; // Change the div image to cookieOut.gif
     setTimeout(() => {
       document.querySelector(".animation").style.backgroundImage =
-        "url('/imgs/fullPic.png')"; // Change the div image to fullPic.png
+        "url('imgs/fullPic.png')"; // Change the div image to fullPic.png
       const cAnimation = document.createElement("div");
       cAnimation.classList.add("container", "text-center", "cAnimation");
       document.querySelector(".animation").appendChild(cAnimation);
       setTimeout(() => {
         document.querySelector(".cAnimation").style.backgroundImage =
-          "url('/imgs/openCookie.png')"; // Change the div image to openCookie.png
+          "url('imgs/openCookie.png')"; // Change the div image to openCookie.png
         const rFortune = fortunes[Math.floor(Math.random() * fortunes.length)];
 
         const fortune = document.createElement("p");
@@ -56,10 +56,10 @@ document.querySelector(".animation").addEventListener("click", function () {
     document.querySelector(".animation").removeEventListener;
     document.querySelector(".animation").style.pointerEvents = "none"; // Remove pointer attribute from .animation
     document.querySelector(".animation").style.backgroundImage =
-      "url('/imgs/shake.gif')"; // Change the div image to shake.gif
+      "url('imgs/shake.gif')"; // Change the div image to shake.gif
     setTimeout(() => {
       document.querySelector(".animation").style.backgroundImage =
-        "url('/imgs/fullPic.png')"; // Change the div image to fullPic.png
+        "url('imgs/fullPic.png')"; // Change the div image to fullPic.png
       document.querySelector(".animation").style.pointerEvents = "auto";
     }, 1300);
   }
@@ -68,19 +68,19 @@ document.querySelector(".animation").addEventListener("click", function () {
     document.querySelector(".animation").removeEventListener;
     document.querySelector(".animation").style.pointerEvents = "none"; // Remove pointer attribute from .animation
     document.querySelector(".animation").style.backgroundImage =
-      "url('/imgs/shake.gif')"; // Change the div image to shake.gif
+      "url('imgs/shake.gif')"; // Change the div image to shake.gif
     setTimeout(() => {
       document.querySelector(".animation").style.backgroundImage =
-        "url('/imgs/cookieOut.gif')"; // Change the div image to cookieOut.gif
+        "url('imgs/cookieOut.gif')"; // Change the div image to cookieOut.gif
       setTimeout(() => {
         document.querySelector(".animation").style.backgroundImage =
-          "url('/imgs/fullPic.png')"; // Change the div image to fullPic.png
+          "url('imgs/fullPic.png')"; // Change the div image to fullPic.png
         const cAnimation = document.createElement("div");
         cAnimation.classList.add("container", "text-center", "cAnimation");
         document.querySelector(".animation").appendChild(cAnimation);
         setTimeout(() => {
           document.querySelector(".cAnimation").style.backgroundImage =
-            "url('/imgs/openCookie.png')"; // Change the div image to openCookie.png
+            "url('imgs/openCookie.png')"; // Change the div image to openCookie.png
           const rFortune =
             fortunes[Math.floor(Math.random() * fortunes.length)];
 

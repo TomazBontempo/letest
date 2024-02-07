@@ -42,7 +42,7 @@ h3 {
   width: 420px;
   height: 420px;
   padding: 0px;
-  background-image: url("/imgs/fullPic.png");
+  background-image: url("imgs/fullPic.png");
   background-size: cover;
   cursor: pointer; /* Add this line to change the cursor to a pointer when hovering over the div */
 }
@@ -52,7 +52,7 @@ h3 {
   margin-top: 60px;
   width: 400px;
   height: 150px;
-  background-image: url("/imgs/cookie.gif");
+  background-image: url("imgs/cookie.gif");
   background-size: cover;
   display: flex;
   align-items: center;
